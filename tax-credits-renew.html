@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HMRC - Tax Credits - Renew Your Tax Credits</title>
+        <link rel="stylesheet" href="css/general.css">
+    </head>
+    <body>
+        <header>
+            <img src="img/logo-hmrc.png"/>
+            <a id="header-logo" href="/">HM Revenue & Customs</a>
+        </header>
+        <main>
+            <h1>Renew your tax credits</h1>
+            <section>
+                <h2>Your details</h2>
+                <form action="send-form.php">
+                    <div class="ni-number">
+                        <label for="ni-number">Your National Insurance number <a class="help-info" href="../help/ni-where.html">Show me where to find this</a></label>
+                        <input type="text" name="ni-number" id="ni-number" pattern="^\s*[a-zA-Z]{2}(?:\s*\d\s*){6}[a-zA-Z]?\s*$" required aria-required="true">
+                    </div>
+                    <div class="tc-number">
+                        <p>Your tax credits renewal number is the 15-digit number on the bottom right-hand corner of your annual declaration. Enter it below.</p>
+                        <img class="help-graphic" src="img/tc-location.png" alt="Annual declaration page with location of tax credits renewal number" />
+                        <label for="tc-number">Your tax credits renewal number</label>
+                        <input type="number" name="tc-number" id="tc-number" pattern="[0-9]{1,15}" required aria-required="true">
+                    </div>
+                    <button class="btn-form btn-next" type="submit" aria-label="Go to next section">Next</button>
+                </form>
+            </section>
+            <a class="help-info" href="../help/ni-where.html">Get help with this page</a>
+        </main>
+        <footer>
+            <section>
+                <nav>
+                    <ul>
+                        <li><a href="../help/index.html">Help</a></li>
+                        <li><a href="../legal/cookies.html">Cookies</a></li>
+                        <li><a href="../legal/privacy-policy.html">Privacy policy</a></li>
+                        <li><a href="../legal/terms.html">Terms and conditions</a></li>
+                    </ul>
+                </nav>
+                <p class="licence">All content is available under the <a rel="license" href"..legal/open-gov-licence.html">Open Government Licence v2.0</a> except where otherwise stated</p>
+            </section>
+            <aside class="copyright">
+                <img src="img/logo-copyright.png" alt="Logo for Crown Copyright" />
+                <a href="../legal/copyright.html">© Crown Copyright</a>
+            </aside>
+        </footer>
+    </body>
+    <script src="js/main.js"></script>
+</html>

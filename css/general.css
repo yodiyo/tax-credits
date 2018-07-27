@@ -1,0 +1,165 @@
+/* 
+    HMRC test CSS
+    Renew tax credits 
+    Author: Yorick Brown
+    Date: 25 July 2018 
+*/
+
+body {
+    border-top: 3px solid orange;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body > * {
+    margin: 0 15px;
+}
+
+/* devices larger than mobile */
+@media (min-width: 768px){
+    body > * {
+        margin: 0 60px;
+    }
+}
+
+header {
+    padding-top: 5px;
+    border-top: 10px solid darkblue; 
+}
+
+#header-logo {
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+header img {
+    position: relative;
+    border-left: 2px solid #009390;
+    width: 24px;
+    top: 6px;
+    padding-left: 2px;
+}
+
+/* #header-logo:before {
+    content: "";
+    background: url("../img/logo-hmrc.png") no-repeat 0 0;
+    background-size: 100%;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border-left: 3px solid #009390;
+    margin-right: 5px;
+    padding-left: 5px;
+    position: relative;
+} */
+
+a {
+    color: #606060;
+}
+
+
+.copyright a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 45px 0;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p, label {
+    font-size: 0.9em;
+}
+
+label {
+    display: block;
+    clear: both;
+    margin-bottom: 3px;
+}
+
+.help-info {
+    font-size: 0.8em;
+    color: #005ea5;
+}
+
+
+.ni-number .help-info {
+    display: block;
+    margin: 10px 0;
+}
+
+@media (min-width: 768px){
+    .ni-number .help-info {
+        display: inline;
+        margin-left: 60px;
+        clear: both;
+    }
+}
+
+.ni-number {
+    margin-bottom: 60px;
+}
+
+input {
+    background-color: #f3f3f3;
+    border-width: 1px;
+    height: 2em;
+}
+
+.btn-next {
+    margin: 15px 0 60px;
+    padding: 5px;
+    background: green;
+    color: white;
+    font-size: 1em;
+}
+
+footer {
+    margin: 15px 0 0; 
+    padding: 15px;
+    background-color: #dee0e2;
+}
+
+@media (min-width: 768px){
+    footer {
+        position: relative;
+        margin: 60px 0 0; 
+        padding: 240px 60px 60px;
+    }
+    footer > * {
+        position: absolute; 
+        bottom: 60px;
+    }
+}
+
+
+footer nav ul {
+    padding: 0;
+}
+footer nav ul li {
+    display: inline;
+    margin: 0 15px 0 0;
+}
+
+footer nav ul li, .licence, .copyright {
+    font-size: 0.8em;
+}
+
+
+footer aside {
+    right: 60px;
+}
+
+aside > * {
+    display: block;
+    clear: both;
+}
+
+.copyright a, .copyright img {
+    text-align: center;
+    margin: 0 auto;
+}
