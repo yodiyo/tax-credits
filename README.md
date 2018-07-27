@@ -9,7 +9,8 @@ For this solution, I hand-coded the HTML and CSS. Although I referenced a JavaSc
 
 Notes:
 - created structure with header, main, section, form, footer, nav elements 
-- added pattern attribute to input element for NI and tax credit numbers - admittedly, I found the former on Stack Overflow, but have not had time to check it
+- added pattern attribute to input element for NI and tax credit numbers - admittedly, I found the former on Stack Overflow, but have not had time to check it 
+- be good to add placeholders with format pattern for each number
 - styled according to mock-up, using 15px and 60px as the default spacing
 - used simple Arial, Helvetica and sans-serif font family - if I had more time, I would have used Google Fonts
 - icons and images were screen grabs from mock-up, so look a little glitchy
