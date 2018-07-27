@@ -13,3 +13,8 @@ Notes:
 - styled according to mock-up, using 15px and 60px as the default spacing
 - used simple Arial, Helvetica and sans-serif font family - if I had more time, I would have used Google Fonts
 - icons and images were screen grabs from mock-up, so look a little glitchy
+
+[Preview page][link]
+
+[link]: http://htmlpreview.github.io/?https://github.com/yodiyo/tax-credits/blob/master/tax-credits-renew.html
+
